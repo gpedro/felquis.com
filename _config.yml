@@ -1,0 +1,8 @@
+server: true
+permalink: /:year/:title.html
+
+source: ./_source
+destination: ./_site
+plugins: ./_source/_plugins
+
+paginate: 5
