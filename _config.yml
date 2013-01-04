@@ -1,4 +1,6 @@
 server: true
+auto: true
+
 permalink: /:year/:title.html
 
 source: ./_source
