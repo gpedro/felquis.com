@@ -1,7 +1,8 @@
 // 02 Jan 2013, 1:18
 
+@import "bootstrap.scss";
+
 body {
-	background: #E4E3E1;
 	font-family: "Share Tech";
 }
 
@@ -9,6 +10,94 @@ h1, a {
 	color: #6B6B6B;
 }
 
+// Margin do conteúdo com o topo do browsers
+.container {
+	margin-top: 20px;
+}
+
+// Remove qualquer elemento no DOM
 .none {
 	display: none;
+}
+
+// Estilo da parte superior
+@import 'modules/default/_default-header.scss';
+
+// Estilo da navegação principal
+@import 'modules/default/_default-nav.scss';
+
+// Tamanho de fontes, igual dos titulos
+h1, .h1 {
+	font-size: 25px;
+}
+
+h2, .h2 {
+	font-size: 23px;
+}
+
+h3, .h3 {
+	font-size: 21px;
+}
+
+h4, .h4 {
+	font-size: 19px;
+}
+
+h5, .h5 {
+	font-size: 17px;
+}
+
+h6, .h6 {
+	font-size: 15px;
+}
+
+// Coloca um sublindo estiloso, com nível de força de 01 a 10
+.underline {
+	position: relative;
+
+	&:before {
+		content: " ";
+		width: 100%;
+		position: absolute;
+		bottom: 1px;
+		left: 0;
+		border-bottom: 1px solid #000;
+		opacity: 1;
+	}
+
+	&.forca01:before {
+		opacity: .1;
+	}
+
+	&.forca02:before {
+		opacity: .2;
+	}
+
+	&.forca03:before {
+		opacity: .3;
+	}
+
+	&.forca04:before {
+		opacity: .4;
+	}
+
+	&.forca05:before {
+		opacity: .5;
+	}
+
+	&.forca06:before {
+		opacity: .6;
+	}
+
+	&.forca07:before {
+		opacity: .7;
+	}
+
+	&.forca08:before {
+		opacity: .8;
+	}
+
+	&.forca09:before {
+		opacity: .9;
+	}
 }
