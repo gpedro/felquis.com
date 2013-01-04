@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title> {% if page.title %} {{ page.title - }} {% endif %}Felquis Front-end Developer </title>
+  <meta name="description" content="Um Desenvolvedor Front-end afim de fazer coisas incríveis.">
+  <meta name="viewport" content="width=device-width">
+  <link href="http://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+    <div class="header-entrada">
+      <img src="img/default-share-image.jpg" alt="" class="avatar span2" />
+
+      <div class="span7">
+        <h1>Felquis Gimenes</h1>
+
+        <p>Sou desenvolver Front-end amo padrões, HTML, CSS, JavaScript e sites super rápidos. Moro em Curitiba, Brasil.</p>
+
+        <nav class="nav-wrap">
+          <ul class="nav-itens-wrap">
+            <li class="nav-item-wrap">
+              <a href="http://tutsmais.com.br/" title="Blog" class="nav-item" target="_blank">Blog</a>
+            </li>
+
+            <li class="nav-item-wrap">
+              <a href="http://github.com/felquis" title="Github" class="nav-item" target="_blank">Github</a>
+            </li>
+
+            <li class="nav-item-wrap">
+              <a href="http://www.linkedin.com/in/felquis" title="Linkedin" class="nav-item" target="_blank">Linkedin</a>
+            </li>
+
+            <li class="nav-item-wrap">
+              <a href="http://twitter.com/felquis" title="Twitter" class="nav-item" target="_blank">Twitter</a>
+            </li>
+
+            <li class="nav-item-wrap">
+              oi@felquis.com
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    {{ content }}
+</body>
+</html>
