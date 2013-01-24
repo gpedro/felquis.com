@@ -1,0 +1,67 @@
+.home-post-container,
+.post-container {
+	margin: 20px 0 0 22px;
+
+	p {
+		font-size: 16px;
+	}
+
+	h2 {
+		margin: 0;
+		line-height: 35px;
+	}
+}
+
+.home-post-image {
+	float: left;
+	position: relative;
+	width: 190px;
+	height: 150px;
+	overflow: hidden;
+	margin: 0 11px 0 0;
+
+	img {
+		position: absolute;
+	}
+}
+
+.home-post-resumo {
+	line-height: 15px;
+}
+
+.home-post-link {
+	display: block;
+	overflow: hidden;
+
+	img {
+		transition: all 10s linear;
+		-webkit-transition: all 10s linear;
+		-moz-transition: all 10s linear;
+		-o-transition: all 10s linear;
+		-ms-transition: all 10s linear;
+		background: url(/img/img-loading.gif) center center no-repeat;
+	}
+
+	&:hover, &:focus {
+		// text-decoration: none;
+
+		p, h2 {
+			color: #6B6B6B;
+		}
+
+		h2 {
+			text-decoration: underline;
+		}
+
+		img {
+			-webkit-transform: scale(1.4);
+		}
+	}
+}
+
+// Post único
+.post-container {
+	a {
+		border-bottom: 1px dashed #333;
+	}
+}

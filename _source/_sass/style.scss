@@ -8,6 +8,18 @@ body {
 
 h1, a {
 	color: #6B6B6B;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+// Conteúdo
+.container-custom {
+	width: 700px;
+	position: relative;
+	margin: auto;
 }
 
 // Margin do conteúdo com o topo do browsers
@@ -25,6 +37,9 @@ h1, a {
 
 // Estilo da navegação principal
 @import 'modules/default/_default-nav.scss';
+
+// Estilo da lista de posts da inicial
+@import 'modules/default/_default-home-posts.scss';
 
 // Tamanho de fontes, igual dos titulos
 h1, .h1 {
@@ -56,12 +71,12 @@ h6, .h6 {
 	position: relative;
 
 	&:before {
-		content: " ";
-		width: 100%;
 		position: absolute;
 		bottom: 1px;
 		left: 0;
+		width: 100%;
 		border-bottom: 1px solid #000;
+		content: " ";
 		opacity: 1;
 	}
 

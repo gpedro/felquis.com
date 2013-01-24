@@ -84,17 +84,6 @@ sub {
   bottom: -0.25em;
 }
 img {
-  /* Responsive images (ensure images don't scale beyond their parents) */
-
-  max-width: 100%;
-  /* Part 1: Set a maxium relative to the parent */
-
-  width: auto\9;
-  /* IE7-8 need help adjusting responsive images */
-
-  height: auto;
-  /* Part 2: Scale the height according to the width, otherwise you get stretching */
-
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
@@ -211,14 +200,7 @@ body {
   color: #333333;
   background-color: #ffffff;
 }
-a {
-  color: #0088cc;
-  text-decoration: none;
-}
-a:hover {
-  color: #005580;
-  text-decoration: underline;
-}
+
 .img-rounded {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
