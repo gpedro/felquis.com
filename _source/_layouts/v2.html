@@ -41,6 +41,13 @@
 
         <nav class="nav-wrap">
           <ul class="nav-itens-wrap">
+
+            {% if page.url != "/index.html" %}
+              <li class="nav-item-wrap">
+                <a href="/" title="Inicio" class="nav-item" target="_blank">Inicio</a>
+              </li>
+            {% endif %}
+
             <li class="nav-item-wrap">
               <a href="http://tutsmais.com.br/" title="Blog" class="nav-item" target="_blank">Blog</a>
             </li>
