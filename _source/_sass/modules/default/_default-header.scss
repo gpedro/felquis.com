@@ -1,8 +1,18 @@
 .header-entrada {
 
 	margin: 40px auto 0;
-	width: 700px;
-	position: relative;
+
+	// Separação do topo, para o conteúdo
+	&:before {
+		position: absolute;
+		right: 0;
+		bottom: -11px;
+		width: 680px;
+		height: 1px;
+		border-top: 1px solid #E9E9E9;
+		background: #BEBEBE;
+		content: " ";
+	}
 
 	h1 {
 		margin: 0;
@@ -15,22 +25,8 @@
 	}
 
 	.avatar {
+		float: left;
 		width: 91px;
 		height: 91px;
-		float: left;
-
-		-webkit-transition: all 0.1s linear;
-		-moz-transition: all 0.1s linear;
-		-o-transition: all 0.1s linear;
-		-ms-transition: all 0.1s linear;
-		transition: all 0.1s linear;
-
-		&:hover {
-			-webkit-transform: scale(1.8) rotate(-2deg);
-			-moz-transform: scale(1.8) rotate(-2deg);
-			-o-transform: scale(1.8) rotate(-2deg);
-			-ms-transform: scale(1.8) rotate(-2deg);
-			transform: scale(1.8) rotate(-2deg);
-		}
 	}
 }
