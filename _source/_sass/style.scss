@@ -41,6 +41,9 @@ a:hover {
 // Estilo da lista de posts da inicial
 @import 'modules/default/_default-home-posts.scss';
 
+// Estilo do code highlighter
+@import 'modules/default/_default-code.scss';
+
 // Tamanho de fontes, igual dos titulos
 h1, .h1 {
 	font-size: 25px;
