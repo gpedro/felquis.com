@@ -28,19 +28,5 @@
 		float: left;
 		width: 91px;
 		height: 91px;
-
-		-webkit-transition: all 0.1s linear;
-		-moz-transition: all 0.1s linear;
-		-o-transition: all 0.1s linear;
-		-ms-transition: all 0.1s linear;
-		transition: all 0.1s linear;
-
-		&:hover {
-			-webkit-transform: scale(1.8) rotate(-2deg);
-			-moz-transform: scale(1.8) rotate(-2deg);
-			-o-transform: scale(1.8) rotate(-2deg);
-			-ms-transform: scale(1.8) rotate(-2deg);
-			transform: scale(1.8) rotate(-2deg);
-		}
 	}
 }
