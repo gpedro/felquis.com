@@ -4,34 +4,30 @@ layout: v2-post
 author: Ofelquis Gimenes
 author_link: http://twitter.com/felquis
 author_profile: https://plus.google.com/102754289882659476963/
-image: http://lorempixum.com/400/400
+image: /img/posts/jquery-eachselector-plugin.png
 tags: jQuery, Plugin
-has_inner_image: false
-comments: true
 keywords: >
   jQuery, each, selector, javascript
 resumo: >
-  Um plugin para selecionar vários elementos com seletores complexos, de uma só vez.
+  A intenção deste plugin é tornar fácil selecionar com seletores complexos, vários elementos com jQuery de uma só vez.
+
+  Surgiu a necessidade de ter algo assim, por que eu precisava dar display none em vários elementos cujo a única maneira de chegar até esses elementos era usando métodos do jQuery como parents ai ficaria difícil, e este plugin foi a solução para dar todos os display:none de uma só vez.
 ---
 
-# Teste
-Este é um *teste* e bla bla bla
+# jQuery EachSelector Plugin
 
-## Teste
-Este é um **teste** e bla bla bla
+A intenção deste plugin é tornar fácil selecionar com seletores complexos, vários elementos com jQuery de uma só vez.
 
-### Teste
-Este é um [teste](http://tutsmais.com.br/) e bla bla bla
+Surgiu a necessidade de ter algo assim, por que eu precisava dar display none em vários elementos cujo a única maneira de chegar até esses elementos era usando métodos do jQuery como **parents** ai ficaria difícil, e este plugin foi a solução para dar todos os display:none de uma só vez.
 
-#### Teste
-Este é um teste e bla bla bla
+Basicamente o modo de se usar o plugin é separar seletores de elementos por virgula na chamada do método $.eachSelector:
+{% highlight javascript %}
+$.eachSelector(
+	'#id .class',
+	$('#otherID').find('.class').parents('.parent')
+).css({display : 'none'});
+{% endhighlight %}
 
-##### Teste
-Este é um teste e bla bla bla
+O Diego Lopes me ajudou na criação do plugin que é muito simples, e estamos planejando uma nova versão com algumas coisas mais completas, conforme necessidade que senti usando no dia-a-dia.
 
-###### Teste
-Este é um teste e bla bla bla
-
-* teste
-* teste
-* teste
+Esta disponível no [Github](https://github.com/felquis/jQueryEachSelector "Github"), se tiver alguma contribuição a fazer fique a vontade :)
