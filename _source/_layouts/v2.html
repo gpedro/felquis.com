@@ -28,6 +28,7 @@
   <script src="/js/modernizr-custom.js"></script>
 </head>
 <body>
+    <div id="fb-root"></div>
     <div class="header-entrada row container-custom">
       <a href="/index.html" title="Ir para o inicio">
         <img src="/img/default-share-image.jpg" alt="" class="avatar span2" />
@@ -70,5 +71,28 @@
 
     <script src="/js/jquery-1.8.3.min.js"></script>
     <script src="/js/main.js"></script>
+
+    <script>
+      // Twitter share button
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+      // +1 button
+      window.___gcfg = {lang: 'pt-BR'};
+
+      (function() {
+      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+      po.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+
+      // Facebook like button
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=416324911779071";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 </body>
 </html>

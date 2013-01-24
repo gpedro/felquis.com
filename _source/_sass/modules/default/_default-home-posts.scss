@@ -64,12 +64,22 @@
 	a {
 		border-bottom: 1px dashed #333;
 	}
+
+}
+
+// posicionamento do botão de like do facebook
+.fb-like {
+	position: relative;
+	top: -3px;
+	margin: 0 33px 0 0;
 }
 
 // Posicionamento dos comentário do DISQUS
-#disqus_thread {
-	width: 677px;
-	margin: 30px 0 0 23px;
-	border-top: 1px dashed #999;
+// e container de links para compartilhar
+#disqus_thread,
+.post-share-links {
+	margin: 17px 0 0 23px;
 	padding: 20px 0 0 0;
+	width: 677px;
+	border-top: 1px dashed #999;
 }
