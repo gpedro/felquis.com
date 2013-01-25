@@ -14,13 +14,13 @@
   <meta property='og:url' content='{{ site.url }}{{ page.url }}'/>
   <meta property='og:site_name' content='Felquis Frontend Developer'/>
   <meta property='og:type' content='website'/>
-  <meta property='og:image' content='{% if page.image %}{{ page.image }}{% else %}/img/default-share-image.jpg{% endif %}'/>
+  <meta property='og:image' content='{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/img/default-share-image.jpg{% endif %}'/>
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content='{{ site.url }}{{ page.url }}'/>
+  <meta name="twitter:url" content='{{ site.url }}'/>
   <meta name='twitter:title' content='{% if page.title %} {{ page.title - }} {% endif %}Felquis Front-end Developer'/>
   <meta name="twitter:creator" content="@felquis">
-  <meta name='twitter:image' content='{% if page.image %}{{ page.image }}{% else %}/img/default-share-image.jpg{% endif %}'/>
+  <meta name='twitter:image' content='{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/img/default-share-image.jpg{% endif %}'/>
   <meta name="twitter:description" content='{% if page.resumo %}{{ page.resumo }}{% else %}Um Desenvolvedor Front-end afim de fazer coisas incríveis.{% endif %}'/>
 
   <meta name="viewport" content="width=device-width">
