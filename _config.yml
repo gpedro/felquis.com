@@ -1,7 +1,7 @@
 safe:        false
-auto:        true
-server:      true
-server_port: 4000
+# auto:        true
+# server:      true
+# server_port: 4000
 baseurl:    /
 url: http://felquis.com
 paginate: 5
