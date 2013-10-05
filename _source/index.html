@@ -11,7 +11,7 @@ layout: v2
 
 				{% if post.image %}
 				<figure class="home-post-image">
-					<img itemprop="thumbnailUrl" src="{{ post.image }}" alt="{{ post.title | strip_html }}" title="{{ post.title | strip_html }}" width="400" height="400" />
+					<img itemprop="thumbnailUrl" src="{{ post.image }}" alt="{{ post.title | strip_html }}" title="{{ post.title | strip_html }}" />
 				</figure>
 				{% endif %}
 				<p itemprop="description" class="home-post-resumo">{{ post.resumo | markdownify }}</p>
