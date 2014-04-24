@@ -1,3 +1,4 @@
+encoding: utf-8
 safe:        false
 port: 4000
 baseurl:    /
