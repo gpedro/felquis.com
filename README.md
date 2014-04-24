@@ -3,19 +3,26 @@ felquis.com
 
 Meu site pessoal [felquis.com](http://felquis.com/?1)
 
-Este site esta usando o [Jekyll] porém irei migra-lo para DocPad.
+Para rodar este projeto localmente, você precisa ter instalado o Ruby e o GIT.
 
-Para fazer um build deste projeto no Linux você precisa instalar o Ruby, e o Ruby Dev
-```
-sudo apt-get install ruby1.9.1 ruby1.9.1-dev
-```
-
-Depois você deve instalar o Jekyll e o Compass
-```
+1 - Instale o Jekyll e Compass
+```shell
 sudo gem install jekyll && sudo gem install compass
 ```
+2 - Instale o plugin para code highlight
+```shell
+sudo easy_install Pygments
+```
+3 - Clone o repositório
+```shell
+git clone git@github.com:felquis/felquis.com.git && cd felquis.com
+```
+4 - De build no projeto
+```shell
+jekyll serve
+```
 
-Instalar todas essas dependências é um saco! Então quero deixar isso mais curto
+Acesse http://0.0.0.0:4000
 
 ---
  > That's all folks :pig:
