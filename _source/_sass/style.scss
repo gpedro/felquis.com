@@ -18,36 +18,28 @@ a:hover {
 	text-decoration: none;
 }
 
-// Conteúdo
 .container-custom {
 	width: 700px;
 	position: relative;
 	margin: auto;
 }
 
-// Margin do conteúdo com o topo do browsers
 .container {
 	margin-top: 20px;
 }
 
-// Remove qualquer elemento no DOM
 .none {
 	display: none;
 }
 
-// Estilo da parte superior
 @import 'modules/default/_default-header.scss';
 
-// Estilo da navegação principal
 @import 'modules/default/_default-nav.scss';
 
-// Estilo da lista de posts da inicial
 @import 'modules/default/_default-home-posts.scss';
 
-// Estilo do code highlighter
 @import 'modules/default/_default-code.scss';
 
-// Tamanho de fontes, igual dos titulos
 h1, .h1 {
 	font-size: 25px;
 }
@@ -72,7 +64,6 @@ h6, .h6 {
 	font-size: 15px;
 }
 
-// Coloca um sublindo estiloso, com nível de força de 01 a 10
 .underline {
 	position: relative;
 
@@ -123,7 +114,6 @@ h6, .h6 {
 	}
 }
 
-// Display none
 [hidden] {
 	display: none;
 }

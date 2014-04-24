@@ -43,7 +43,6 @@
 	}
 
 	&:hover, &:focus {
-		// text-decoration: none;
 
 		p, h2 {
 			color: #6B6B6B;
@@ -59,7 +58,7 @@
 	}
 }
 
-// Post único
+
 .post-container {
 	a {
 		border-bottom: 1px dashed #333;
@@ -67,15 +66,15 @@
 
 }
 
-// posicionamento do botão de like do facebook
+
 .fb-like {
 	position: relative;
 	top: -3px;
 	margin: 0 33px 0 0;
 }
 
-// Posicionamento dos comentário do DISQUS
-// e container de links para compartilhar
+
+
 #disqus_thread,
 .post-share-links {
 	margin: 17px 0 0 23px;
