@@ -5,31 +5,31 @@
 @import url(http://fonts.googleapis.com/css?family=Share+Tech);
 
 body {
-	font-family: "Share Tech";
-	overflow-y: scroll
+    font-family: "Share Tech";
+    overflow-y: scroll
 }
 
 h1, a {
-	color: #6B6B6B;
-	text-decoration: none;
+    color: #6B6B6B;
+    text-decoration: none;
 }
 
 a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .container-custom {
-	width: 700px;
-	position: relative;
-	margin: auto;
+    width: 700px;
+    position: relative;
+    margin: auto;
 }
 
 .container {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 .none {
-	display: none;
+    display: none;
 }
 
 @import 'modules/default/_default-header.scss';
@@ -41,79 +41,79 @@ a:hover {
 @import 'modules/default/_default-code.scss';
 
 h1, .h1 {
-	font-size: 25px;
+    font-size: 25px;
 }
 
 h2, .h2 {
-	font-size: 23px;
+    font-size: 23px;
 }
 
 h3, .h3 {
-	font-size: 21px;
+    font-size: 21px;
 }
 
 h4, .h4 {
-	font-size: 19px;
+    font-size: 19px;
 }
 
 h5, .h5 {
-	font-size: 17px;
+    font-size: 17px;
 }
 
 h6, .h6 {
-	font-size: 15px;
+    font-size: 15px;
 }
 
 .underline {
-	position: relative;
+    position: relative;
 
-	&:before {
-		position: absolute;
-		bottom: 1px;
-		left: 0;
-		width: 100%;
-		border-bottom: 1px solid #000;
-		content: " ";
-		opacity: 1;
-	}
+    &:before {
+        position: absolute;
+        bottom: 1px;
+        left: 0;
+        width: 100%;
+        border-bottom: 1px solid #000;
+        content: " ";
+        opacity: 1;
+    }
 
-	&.forca01:before {
-		opacity: .1;
-	}
+    &.forca01:before {
+        opacity: .1;
+    }
 
-	&.forca02:before {
-		opacity: .2;
-	}
+    &.forca02:before {
+        opacity: .2;
+    }
 
-	&.forca03:before {
-		opacity: .3;
-	}
+    &.forca03:before {
+        opacity: .3;
+    }
 
-	&.forca04:before {
-		opacity: .4;
-	}
+    &.forca04:before {
+        opacity: .4;
+    }
 
-	&.forca05:before {
-		opacity: .5;
-	}
+    &.forca05:before {
+        opacity: .5;
+    }
 
-	&.forca06:before {
-		opacity: .6;
-	}
+    &.forca06:before {
+        opacity: .6;
+    }
 
-	&.forca07:before {
-		opacity: .7;
-	}
+    &.forca07:before {
+        opacity: .7;
+    }
 
-	&.forca08:before {
-		opacity: .8;
-	}
+    &.forca08:before {
+        opacity: .8;
+    }
 
-	&.forca09:before {
-		opacity: .9;
-	}
+    &.forca09:before {
+        opacity: .9;
+    }
 }
 
 [hidden] {
-	display: none;
+    display: none;
 }
