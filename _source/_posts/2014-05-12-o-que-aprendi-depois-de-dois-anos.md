@@ -1,5 +1,5 @@
 ---
-title: O que aprendi depois de dois anos
+title: O que aprendi correndo atrás de um sonho
 layout: v2-post
 author: Felquis Gimenes
 author_link: http://twitter.com/felquis
