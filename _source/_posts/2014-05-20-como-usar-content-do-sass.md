@@ -16,7 +16,7 @@ resumo: >
 
 <img src="/img/posts/sass.png" alt="" style="width: 100%">
 
-Neste post vou comprar como a diretiva @content do Sass pode ser útil.. Para aprender sobre como usar o @content é bom ter uma experiência prévia com mixins. Mas vamos por parte, você vai conseguir.
+Neste post vou mostrar como a diretiva @content do Sass pode ser útil.. Para aprender sobre como usar o @content é bom ter uma experiência prévia com mixins. Mas vamos por parte, você vai conseguir.
 
 Para criar um mixin que crie por exemplo um quadrado, o mixin seria mais ou menos como este:
 {% highlight css %}
