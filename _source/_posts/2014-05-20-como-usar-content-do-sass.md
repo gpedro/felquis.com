@@ -95,7 +95,7 @@ Certo? O CSS final seria isso:
 
 Bom, funciona muito bem. Mas este é um exemplo muito ruim. Vamos tentar um exemplo em que a diretiva @content realmente seja útil, vamos criar um mixin para criar o nosso querido @keyframe, você conhece essa propriedade do CSS3 né? Então, vamos lidar com todos aqueles vendors.
 
-Para começar, um mixin que crie crie a regra @keyframes com alguns vendors:
+Para começar, um mixin que crie a regra @keyframes com alguns vendors:
 {% highlight css %}
 @mixin keyframes ($nome) {
     @-webkit-keyframes $nome {
