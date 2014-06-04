@@ -12,5 +12,5 @@ plugins:     ./_source/_plugins
 future:      true
 lsi:         false
 highlighter: pygments
-markdown:    maruku
+markdown:    kramdown
 permalink:   /:year/:title.html

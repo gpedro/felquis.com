@@ -9,9 +9,10 @@ Para rodar este projeto localmente, você precisa ter instalado o Ruby e o GIT.
 ```shell
 sudo gem install jekyll && sudo gem install compass
 ```
-2 - Instale o plugin para code highlight
+2 - Instale o plugin para code highlight e para markdown
 ```shell
 sudo easy_install Pygments
+sudo gem install kramdown
 ```
 3 - Clone o repositório
 ```shell
