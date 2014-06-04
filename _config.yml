@@ -3,7 +3,7 @@ safe:        false
 port:        4000
 baseurl:     /
 url:         http://felquis.com
-paginate:    5
+paginate:    3
 
 source:      ./_source
 destination: ./_site
@@ -11,6 +11,6 @@ plugins:     ./_source/_plugins
 
 future:      true
 lsi:         false
-pygments:    true
+highlighter: pygments
 markdown:    maruku
 permalink:   /:year/:title.html
