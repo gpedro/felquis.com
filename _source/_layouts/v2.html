@@ -75,6 +75,20 @@
 
     {{ content }}
 
+    <hr class="row">
+
+    <div class="container-custom row">
+        {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}" style="float: left">Voltar</a>
+        {% endif %}
+
+        {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" style="float: right">Mais posts</a>
+        {% endif %}
+    </div>
+
+    <hr class="row">
+
     <script>
         {% include analytics.js %}
 
