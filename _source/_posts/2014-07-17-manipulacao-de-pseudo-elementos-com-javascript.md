@@ -21,7 +21,7 @@ Para começar, não existe uma maneira de selecionar um pseudo-elemento no JavaS
 ## Como alterar a propriedade `content` de um pseudo-elemento
 
 Levando em consideração que não temos como alterar propriedades do CSS de um pseudo-elemento, temos um workaround bem eficiente e que funciona bem, para isso leve em consideração o HTML
-{% highlight html %}
+{% highlight css %}
 <span>Algo está acontecendo</span>
 {% endhighlight %}
 
