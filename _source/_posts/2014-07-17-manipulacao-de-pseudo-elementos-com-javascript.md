@@ -20,7 +20,7 @@ Para começar, não existe uma maneira de selecionar um pseudo-elemento no JavaS
 
 ## Como alterar a propriedade `content` de um pseudo-elemento
 
-Levando em consideração que não temos como alterar propriedades do CSS de um pseudo-elemento, temos um work around bem eficiente e que funciona bem, para isso leve em consideração o HTML
+Levando em consideração que não temos como alterar propriedades do CSS de um pseudo-elemento, temos um workaround bem eficiente e que funciona bem, para isso leve em consideração o HTML
 {% highlight html %}
 <span>Algo está acontecendo</span>
 {% endhighlight %}
@@ -75,7 +75,7 @@ Infelizmente isso não é possível, se você saber o porque, me conte!
 
 Bom, não é possível alterar propriedades do CSS de pseudo-elementos, mas, é possível saber o valor de uma propriedade de um pseudo-elemento, parece que a galera que criou a especificação do getComputedStyle lembrou que existem os pseudo-elementos (risos).
 
-o [getComputedStyle](https://developer.mozilla.org/en-US/docs/Web/API/Window.getComputedStyle) retorna todos as propriedades do CSS que foram usadas para rederizar um elemento na tela, e seus valores são imutáveis.
+O [getComputedStyle](https://developer.mozilla.org/en-US/docs/Web/API/Window.getComputedStyle) retorna todos as propriedades do CSS que foram usadas para rederizar um elemento na tela, e seus valores são imutáveis.
 
 Para usar este método basta primeira passar um elemento, e o segundo parametro é opticional e representa um pseudo-elemento :after ou :before.
 
@@ -93,7 +93,7 @@ Este método fantástico retorna pra gente o que eles chamam de [CSSStyleDeclara
 Então, veja isso:
 
 {% highlight js %}
-var styles = var styles = window.getComputedStyle(
+var styles = window.getComputedStyle(
   document.querySelector('span'),
   ':before'
 );
