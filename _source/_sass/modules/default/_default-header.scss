@@ -1,6 +1,6 @@
 .header-entrada {
-
     margin: 40px auto 0;
+    text-align: center;
 
     &:before {
         position: absolute;
@@ -16,7 +16,6 @@
     h1 {
         margin: 0;
         padding: 0;
-        line-height: 24px;
     }
 
     p {
@@ -24,8 +23,9 @@
     }
 
     .avatar {
-        float: left;
         width: 91px;
         height: 91px;
+        border-radius: 50%;
+        border: 10px #ddd solid;
     }
 }
